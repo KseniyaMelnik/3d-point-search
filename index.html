@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <title>3D Point Search</title>
+</head>
+<body>
+    <h1>Random Point</h1>
+    <i>To generate a new point, refresh the page</i>
+
+    <h2>Generated Random Point:</h2>
+    <p id="random-point"></p>
+
+    <h2>Find Random Point:</h2>
+    <p id="find-point"></p>
+    <button onclick="findRandomPoint()">Find</button>
+    
+    <h3>Search Points:</h3>
+    <ul id="search-points">
+        <li>(0, 0, 0)</li>
+        <li>(0, 0, 100)</li>
+        <li>(0, 100, 0)</li>
+    </ul>
+
+    <p id="calls"></p>
+
+    <script src="./index.js"></script>
+</body>
+</html>
